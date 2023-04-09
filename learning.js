@@ -24,3 +24,16 @@ var nam = "Ник";
 for (var i = 0; i < nam.length; i++) {
   console.log("В моем имени есть буква " + nam[i] + ".");
 }
+
+for (let x = 2; x < 10000; x = x * 2) {
+  console.log(x);
+}
+for (let x = 3; x < 10000; x = x * 3) {
+  console.log(x);
+}
+
+let animal = ["Кот", "Рыба", "Лемур", "Комодский варан"];
+
+for (let i = 0; i < animal.length; i++) {
+  console.log(animal[i] + " - прекрасное живоное");
+}
